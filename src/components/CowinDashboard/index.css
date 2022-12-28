@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #161625;
+  padding: 35px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-size {
+  height: 40px;
+  width: 40px;
+}
+.main-heading {
+  text-align: center;
+  font-family: Roboto;
+  color: #ffffff;
+}
+.logo-heading {
+  font-family: Roboto;
+  color: #2cc6c6;
+  margin-left: 10px;
+  line-height: 0px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-image {
+  height: 300px;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 25px;
+  background-color: #2cc6c6;
+  border-radius: 25px;
+}
+.failure-view-heading {
+  font-family: lobster;
+  color: #161625;
+  border: 1px solid #161625;
+  padding: 15px;
+  border-radius: 15px;
+}
